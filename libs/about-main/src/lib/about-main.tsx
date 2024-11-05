@@ -1,7 +1,12 @@
-import { Greeting } from '@react-module-federation/shared-components';
+import { NumberFlowWrapper } from '@react-module-federation/shared-components';
 
 export function AboutMain() {
-  return <Greeting title="about" />;
+  return (
+    <>
+      <p>AboutMain</p>
+      <NumberFlowWrapper />
+    </>
+  );
 }
 
 export default AboutMain;

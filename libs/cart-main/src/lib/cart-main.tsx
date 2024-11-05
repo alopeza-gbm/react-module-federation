@@ -1,7 +1,12 @@
-import { Greeting } from '@react-module-federation/shared-components';
+import { NumberFlowWrapper } from '@react-module-federation/shared-components';
 
 export function CartMain() {
-  return <Greeting title="cart" />;
+  return (
+    <>
+      <p>CartMain</p>
+      <NumberFlowWrapper />
+    </>
+  );
 }
 
 export default CartMain;
